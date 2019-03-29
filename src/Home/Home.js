@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './home.css';
 import Header from '../Header/Header';
-import Content from '../Header/Contents/Conhme'
+
 import "../Header/Header.css"
 
 
@@ -12,17 +12,6 @@ class Home extends Component {
             <div className="BG">
 
                 <Header />
-
-               
-                <br /> <br /> <br /> <br />
-                <br /> <br /> <br /> <br />
-                <br /> <br /> <br /> <br />
-                <br /> <br /> <br /> <br />
-                <br /> <br /> <br /> <br />
-                <br /> <br /> <br /> <br />
-              
-                
-
 
 
                 <div className="home">
