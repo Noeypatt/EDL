@@ -2,18 +2,27 @@ import React, { Component } from 'react';
 import './home.css';
 import Header from '../Header/Header';
 import Content from '../Header/Contents/Conhme'
+import "../Header/Header.css"
 
 
 
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className="BG">
 
                 <Header />
 
-                <Content />
+               
                 <br /> <br /> <br /> <br />
+                <br /> <br /> <br /> <br />
+                <br /> <br /> <br /> <br />
+                <br /> <br /> <br /> <br />
+                <br /> <br /> <br /> <br />
+                <br /> <br /> <br /> <br />
+              
+                
+
 
 
                 <div className="home">
@@ -23,7 +32,7 @@ class Home extends Component {
                                 <a href="/App" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">เข้าสู่หน้าหลัก</a>
                             </div>
                         </div>
-
+                        <br /> <br /> <br /> <br />
                     </div>
                 </div>
 
