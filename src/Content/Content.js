@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Content.css';
 import GButton from './Contents/GButton'
-import SH from '../Content/img/show.png'
 
 
 class Content extends Component {

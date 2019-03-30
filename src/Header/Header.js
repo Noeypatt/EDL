@@ -23,7 +23,7 @@ class Header extends Component {
             <div className="Bar" >
 
                 <Navbar bg-tranparent fixed-top light expand="lg">
-                    <NavbarBrand href="/"><h5>Elderly</h5></NavbarBrand>
+                    <NavbarBrand href="/"><h3>Elderly</h3></NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav id="name" className="ml-auto" navbar>
@@ -49,7 +49,7 @@ class Header extends Component {
                                     </DropdownItem>
                                     <DropdownItem divider />
                                     <DropdownItem>
-                                        Reset
+                                        วิธีการใช้งาน
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>

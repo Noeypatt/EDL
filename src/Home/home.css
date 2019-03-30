@@ -5,14 +5,29 @@
     padding-bottom: 0%;
     margin-left: 0%;
     margin-right: 0%;
+    font-family: 'Prompt', sans-serif;
 }
 
-.bg
+.BG
 {
-    background-color: #bedadc;
-   /* min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;*/
+    width: 100%;
+    height: 100vh;
+    margin-left: 0%;
+    margin-right: 0%;
+    background: url("test.png")  no-repeat ;
+    background-size: contain;
+    position:fixed;
+}
+
+.con
+{
+    text-align: right;
+   width: 100em;
+  
+    
+}
+
+#BT
+{
+    text-align: center;
 }
