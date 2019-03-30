@@ -17,15 +17,24 @@
     background: url("test.png")  no-repeat ;
     background-size: contain;
     position:fixed;
+   
+    
 }
 
 .con
 {
-    text-align: right;
-   width: 100em;
-  
+    
+    width: 110%;
+    position:fixed;
+    text-align: center;
     
 }
+/* 
+@media (min-width: 1200px) { 
+    #small{
+        font-size: -50px;
+    }
+ } */
 
 #BT
 {

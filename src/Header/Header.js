@@ -24,8 +24,8 @@ class Header extends Component {
 
                 <Navbar bg-tranparent fixed-top light expand="lg">
                     <NavbarBrand href="/"><h3>Elderly</h3></NavbarBrand>
-                    <NavbarToggler onClick={this.toggle} />
-                    <Collapse isOpen={this.state.isOpen} navbar>
+                    <NavbarToggler  onClick={this.toggle} />
+                    <Collapse id = "Toggle" isOpen={this.state.isOpen} navbar>
                         <Nav id="name" className="ml-auto" navbar>
                             <NavItem>
                                 <NavLink href="#">หน้าหลัก</NavLink>
@@ -36,7 +36,7 @@ class Header extends Component {
                             <NavItem>
                                 <NavLink href="#">ติดต่อ</NavLink>
                             </NavItem>
-                            <UncontrolledDropdown nav inNavbar>
+                            <UncontrolledDropdown  nav inNavbar>
                                 <DropdownToggle nav caret>
                                     Login
                                 </DropdownToggle>

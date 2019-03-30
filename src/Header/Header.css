@@ -27,3 +27,15 @@
 {
     margin-right: 0%;
 }
+
+@media (max-width: 991.98px) { 
+    #Toggle{
+        background-color: white ;
+        opacity: 0.8;
+    }
+    
+}
+
+h3:hover {
+    opacity: 0.3;
+  }
