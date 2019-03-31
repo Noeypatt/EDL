@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './Header.css'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
@@ -41,10 +42,10 @@ class Header extends Component {
                                     Login
                                 </DropdownToggle>
                                 <DropdownMenu right>
-                                    <DropdownItem>
+                                    <DropdownItem href="/Addmin">
                                         Admin
                                     </DropdownItem>
-                                    <DropdownItem>
+                                    <DropdownItem href="/Person">
                                         Person
                                     </DropdownItem>
                                     <DropdownItem divider />
