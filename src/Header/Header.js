@@ -23,12 +23,12 @@ class Header extends Component {
         return (
             <div >
                 <Navbar bg-tranparent fixed-top light expand="lg">
-                    <NavbarBrand href="/"><h3>Elderly</h3></NavbarBrand>
+                    <NavbarBrand id="Bar" href="/"><h3>Elderly</h3></NavbarBrand>
                     <NavbarToggler  onClick={this.toggle} />
                     <Collapse id = "Toggle" isOpen={this.state.isOpen} navbar>
                         <Nav id="name" className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="#">หน้าหลัก</NavLink>
+                                <NavLink href="/App">หน้าหลัก</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="#">เกี่ยวกับ</NavLink>

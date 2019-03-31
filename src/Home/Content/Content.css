@@ -1,17 +1,25 @@
-#Con
-{
-    
-    margin-left: 0%;
-    margin-right: 0%;
-    width: 100%;
-
-}
 
 #Block
 {
+    font-family: 'Prompt', sans-serif;
     border-radius: 25% 10%;
     text-align: center;
-    
+    background-color: transparent;
     align-self: center;
+    position: inherit;
 }
+
+
+#Ser
+{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+#Choice
+{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
 /*background-color: transparent;*/

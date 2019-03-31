@@ -9,8 +9,9 @@ class GButton extends Component {
                     <div class="row" >
                         <div class="col-lg-12" >
                             <div >
-                                <h1 align='center'>Hello</h1>
-                                <br />
+                                <br/>
+                                <h1 align='center'>ยินดีต้อนรับเข้าสู่ <br/>ระบบฐานข้อมูลของผู้สูงอายุ ภายในจังหวัดภูเก็ต</h1>
+                                <br /> <br/>
 
                                 <div class="font" class="container-fluid" align="center" >
                                     <div class="row" >

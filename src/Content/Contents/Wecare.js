@@ -4,7 +4,7 @@ import '../Content.css'
 class Wecare extends Component {
     render() {
         return (
-            <div className="font">
+            <div id ="font" >
                 <div class="container-fluid" >
                     <div class="row" >
                         <div class="col-lg-1" className="Barin" >

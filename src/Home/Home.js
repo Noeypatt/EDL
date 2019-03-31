@@ -14,12 +14,9 @@ class Home extends Component {
             <div className="BG">
 
                 <Header />
-                <br /> <br /><br /> <br />
                 <br />
                 <Content />
-                <br /> <br /><br />
-                <br /> <br />
-                <br /><br />
+                <br /><br /><br /><br />
                 <Service />
 
 
