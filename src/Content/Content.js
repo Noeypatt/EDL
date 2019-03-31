@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './Content.css';
 import GButton from './Contents/GButton'
+import News from './Contents/News'
 
 
 class Content extends Component {
@@ -12,7 +14,7 @@ class Content extends Component {
                     <div class="row" >
                         <div class="col-lg-12" >
                         <GButton />
-                        <br/>
+                        {/* <News/> */}
                         </div>
                     </div>
                 </div>

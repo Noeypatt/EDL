@@ -9,7 +9,7 @@ class Health extends Component {
     render() {
         return (
             <div className = "font" >
-
+                
                 <div class="container-fluid" >
                     <div class="row" >
                         <div class="col-lg-1" className="Barin">

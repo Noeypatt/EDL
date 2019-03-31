@@ -36,7 +36,7 @@ class Activities extends Component {
                     </div>
                 </div>
 
-
+                <img src="http://sticksite.com/old_folks/feeding-birds.gif" />
             </div>
         )
     }
