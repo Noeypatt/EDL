@@ -12,11 +12,8 @@ class Home extends Component {
     render() {
         return (
             <div className="BG">
-
                 <Header />
-                <br />
                 <Content />
-                <br /><br /><br /><br />
                 <Service />
 
 

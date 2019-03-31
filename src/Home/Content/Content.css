@@ -2,11 +2,13 @@
 #Block
 {
     font-family: 'Prompt', sans-serif;
-    border-radius: 25% 10%;
-    text-align: center;
-    background-color: transparent;
-    align-self: center;
-    position: inherit;
+    background-color:transparent;
+}
+
+@media (min-width: 1200px) { 
+    #Top
+    { margin-top: 150px;
+    }
 }
 
 
