@@ -21,8 +21,7 @@ class Header extends Component {
     }
     render() {
         return (
-            <div className="Bar" >
-
+            <div >
                 <Navbar bg-tranparent fixed-top light expand="lg">
                     <NavbarBrand href="/"><h3>Elderly</h3></NavbarBrand>
                     <NavbarToggler  onClick={this.toggle} />

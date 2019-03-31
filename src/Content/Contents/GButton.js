@@ -27,7 +27,7 @@ class GButton extends Component {
                                         </div>
 
                                         <div class="col-lg-2" >
-                                            <a href="/Allowance" ><button  type="button" class="btn btn-primary">เบี้ยยังชีพผู้สูงอายุ</button></a>
+                                            <a href="#" ><button  type="button" class="btn btn-primary">เบี้ยยังชีพผู้สูงอายุ</button></a>
                                         </div>
 
                                         <div class="col-lg-2" >
