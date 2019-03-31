@@ -20,7 +20,7 @@ class Content extends Component {
                                         <div class="jumbotron-caption d-none d-lg-block active">
                                             <h1>Elderly DataBase</h1><br />
                                             <p className="lead"> เว็บไซต์เเสดงจำนวนประชากร เเละข่าวสารเกี่ยวกับ<br />ผู้สูงอายุ </p><br />
-                                            <a href="/App" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">เข้าสู่เว็บไซต์</a>
+                                            <a href="/App" class="btn btn-primary btn-lg active"  role="button" aria-pressed="true">เข้าสู่เว็บไซต์</a>
                                         </div>
                                     </div>
                                 </div>
@@ -31,14 +31,6 @@ class Content extends Component {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
 
 
             </div>

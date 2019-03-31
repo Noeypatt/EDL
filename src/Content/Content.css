@@ -3,17 +3,12 @@
     font-family: 'Prompt', sans-serif;
 }
 
-.con
+#Block
 {
-  margin-top: 0%;
-  margin-left: 0%;
-  margin-right: 0%;
-  margin-block-start: 0%;
-  margin-block-end: 0%;
-  margin-inline-start: 0%;
-  margin-inline-end: 0%;
-  font-family: 'Prompt', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    background-color:transparent;
 }
+
 
 
 #font
