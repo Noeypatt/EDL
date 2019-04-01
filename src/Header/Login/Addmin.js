@@ -23,7 +23,7 @@ class Addmin extends Component {
 
                         <div class="col-lg-4">
                             <div id="Box" class="jumbotron">
-                                <h1 class="display-4">Login Addmin</h1>
+                                <h1 class="display-4">Login Admin</h1>
                                 <h6 class="lead">สำหรับเจ้าหน้าที่</h6><br />
 
                                 <a href="https://docs.google.com/spreadsheets/d/1lTvlri1R_Jjt6_YnhvwnDxYCnNXJHHXaJxEOqETOwi0/edit?usp=sharing" 

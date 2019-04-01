@@ -18,7 +18,7 @@ class Service extends Component {
                     <div id="Choice" class="container-fluid">
                         <div class="row">
 
-                            <div class="col-lg-3">
+                            <div class="col-lg-3 col-sm-6 col-xs-6">
                                 <img src="https://image.flaticon.com/icons/svg/822/822161.svg" width="50px" />
                                 <div class="card-body">
                                     <h5 class="card-title">บริการดูแลผู้สูงอายุ</h5>
@@ -26,7 +26,7 @@ class Service extends Component {
                                 </div>
                             </div>
 
-                            <div class="col-lg-3">
+                            <div class="col-lg-3 col-sm-6 col-xs-6">
                                 <img src="https://image.flaticon.com/icons/svg/822/822144.svg" width="50px" />
                                 <div class="card-body">
                                     <h5 class="card-title">การตรวจสุขภาพที่บ้าน</h5>
@@ -34,7 +34,7 @@ class Service extends Component {
                                 </div>
                             </div>
 
-                            <div class="col-lg-3">
+                            <div class="col-lg-3 col-sm-6 col-xs-6">
                                 <img src="https://image.flaticon.com/icons/svg/822/822160.svg" width="50px" />
                                 <div class="card-body">
                                     <h5 class="card-title">เอกสารที่จำเป็น</h5>
@@ -43,7 +43,7 @@ class Service extends Component {
                             </div>
 
 
-                            <div class="col-lg-3">
+                            <div class="col-lg-3 col-sm-6 col-xs-6">
                                 <img src="https://image.flaticon.com/icons/svg/822/822170.svg" width="50px" />
                                 <div class="card-body">
                                     <h5 class="card-title">สายด่วน เหตุฉุกเฉิน</h5>
