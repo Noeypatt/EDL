@@ -3,13 +3,32 @@
 {
     font-family: 'Prompt', sans-serif;
     background-color:transparent;
+    margin-top: 40px;
 }
 
-@media (min-width: 1200px) { 
-    #Top
-    { margin-top: 150px;
-    }
+@media (max-width: 1300px) { 
+    #Block
+{
+    font-family: 'Prompt', sans-serif;
+    background-color:transparent;
+    margin-top: 20px;
 }
+}
+
+@media (max-width: 1200px) { 
+    #Block
+{
+    font-family: 'Prompt', sans-serif;
+    background-color:transparent;
+    margin-top: -50px;
+}
+}
+
+
+
+
+
+ 
 
 
 #Ser

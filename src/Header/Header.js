@@ -44,9 +44,6 @@ class Header extends Component {
                                     <DropdownItem href="/Addmin">
                                         Admin
                                     </DropdownItem>
-                                    <DropdownItem href="/Person">
-                                        Person
-                                    </DropdownItem>
                                     <DropdownItem divider />
                                     <DropdownItem>
                                         วิธีการใช้งาน

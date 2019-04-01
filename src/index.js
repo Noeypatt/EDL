@@ -13,7 +13,7 @@ import Health from './Content/Contents/Health'
 import Wecare from './Content/Contents/Wecare'
 
 import Addmin from './Header/Login/Addmin'
-import Person from './Header/Login/Person'
+
 
 
 
@@ -46,7 +46,7 @@ ReactDOM.render(
             <Route path="/Health" component={Health} />
             <Route path="/Wecare" component={Wecare} />
             <Route path="/Addmin" component={Addmin} />
-            <Route path="/Person" component={Person} />
+            
 
 
         </div>

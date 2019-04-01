@@ -13,6 +13,7 @@ class Home extends Component {
         return (
             <div className="BG">
                 <Header />
+                <br/>
                 <Content />
                 <Service />
 
