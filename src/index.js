@@ -4,15 +4,14 @@ import { Route, Router } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Home from './Home/Home'
-import App from './App'
+import Addmin from './Header/Login/Addmin'
+
 import Expand from './Header/Contents/Expand'
-import News from './Content/Contents/News'
 import Activities from './Content/Contents/Activities'
-import Allowance from './Content/Contents/Allowance'
-import Health from './Content/Contents/Health'
 import Wecare from './Content/Contents/Wecare'
 
-import Addmin from './Header/Login/Addmin'
+import App from './App'
+
 
 
 
@@ -40,10 +39,9 @@ ReactDOM.render(
             <Route exact path="/" component={Home} />
             <Route path="/App" component={App} />
             <Route path="/Expand" component={Expand} />
-            <Route path="/News" component={News} />
+          
             <Route path="/Activities" component={Activities} />
-            <Route path="/Allowance" component={Allowance} />
-            <Route path="/Health" component={Health} />
+       
             <Route path="/Wecare" component={Wecare} />
             <Route path="/Addmin" component={Addmin} />
             
