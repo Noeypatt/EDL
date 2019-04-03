@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './Home.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../Header/Header';
 import Content from '../Home/Content/Content'
 import Service from './Content/Service'
 import Footer from '../Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Allowance from './Content/Allowance';
+import Hospital from './Content/Hospital';
 
 
 
@@ -18,6 +20,7 @@ class Home extends Component {
                 <br/>
                 <Content />
                 <Allowance/>
+                {/* <Hospital/> */}
                 <Service />
                 <Footer/>
 

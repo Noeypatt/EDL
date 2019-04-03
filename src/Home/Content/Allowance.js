@@ -6,7 +6,7 @@ class Allowance extends Component {
 
     render() {
         return (
-            <div  id ="Top0"  >
+            <div>
                 <div id="Ser" className="container-fluid">
                     <div className="row">
                         <div className="col-lg-12">

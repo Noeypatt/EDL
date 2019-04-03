@@ -4,7 +4,7 @@ import { Route, Router } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Home from './Home/Home'
-import Addmin from './Header/Login/Addmin'
+import Admin from './Header/Login/Admin'
 
 import Expand from './Header/Contents/Expand'
 import Activities from './Content/Contents/Activities'
@@ -43,7 +43,7 @@ ReactDOM.render(
             <Route path="/Activities" component={Activities} />
        
             <Route path="/Wecare" component={Wecare} />
-            <Route path="/Addmin" component={Addmin} />
+            <Route path="/Admin" component={Admin} />
             
 
 

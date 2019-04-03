@@ -7,27 +7,28 @@ class Content extends Component {
     render() {
         return (
             <div >
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-7">
-
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-lg-3">
                         </div>
-                        <div class="col-lg-4">
-                            <div class="jumbotron" id="Block">
-                                <div class="jumbotron-inner">
-                                    <div class="jumbotron-item active">
-                                        <div class="jumbotron-caption d-none d-lg-block active">
+
+                        <div className="col-lg-6">
+                            <div className="jumbotron" id="Block">
+                                <div className="jumbotron-inner">
+                                    <div className="jumbotron-item active">
+                                        <div className="jumbotron-caption d-none d-lg-block active">
                                             <h1>Elderly DataBase</h1>
-                                            <p className="lead"> เว็บไซต์เเสดงจำนวนประชากร เเละข่าวสารเกี่ยวกับผู้สูงอายุ </p><br/>
-                                            <a href="/App" class="btn btn-primary btn-md active"  role="button" aria-pressed="true">เข้าสู่เว็บไซต์</a>
+                                            <h5 className="lead"> เว็บไซต์เเสดงจำนวนประชากร เเละข่าวสารเกี่ยวกับผู้สูงอายุ </h5><br/>
+                                            <a href="/App" className="btn btn-primary btn-md active"  role="button" aria-pressed="true">เข้าสู่เว็บไซต์</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-1">
 
+                        <div className="col-lg-3">
                         </div>
+                        
                     </div>
                 </div>
 
