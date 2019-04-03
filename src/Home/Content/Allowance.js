@@ -11,7 +11,7 @@ class Allowance extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <h1>How can we help </h1>
-                            <br/><br/>
+                            <br/>
                         </div>
                     </div>
 

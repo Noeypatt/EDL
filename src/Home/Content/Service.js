@@ -7,7 +7,7 @@ class Service extends Component {
     render() {
         return (
             <div   >
-                <div id="Ser" className="container-fluid">
+                <div id="Helpcenter" className="container-fluid">
                     <div className="row">
                         <div className="col-lg-12">
                             <h1>Service of you</h1>
@@ -15,7 +15,7 @@ class Service extends Component {
                         </div>
                     </div>
 
-                    <div id="Choice" className="container-fluid">
+                    <div id="Helpchoice" className="container-fluid">
                         <div className="row">
 
                             <div className="col-lg-3 col-sm-6 col-xs-6">
