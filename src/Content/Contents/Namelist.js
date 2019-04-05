@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Tabletop from 'tabletop';
 import { Table } from 'reactstrap';
 import '../Content.css'
+import { BarChart, XAxis, YAxis, Tooltip, Legend, CartesianGrid, Bar } from 'recharts';
 
 class Namelist extends Component {
     constructor() {
@@ -29,7 +30,20 @@ class Namelist extends Component {
         return (
             <div id="font">
 
-            <h1 align="center" className="animated  zoomIn delay-2s" >ตารางยอดผู้ได้รับเบี้ยยังชีพ ประเภทผู้สูงอายุ</h1>
+                <BarChart width={730} height={250} data={data}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="จังหวัด" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="อายุ60ถึง69ปี" fill="#8884d8" />
+                    <Bar dataKey="อายุ70ถึง79ปี" fill="#8884d8" />
+                    <Bar dataKey="อายุ80ถึง89ปี" fill="#8884d8" />
+                    <Bar dataKey="อายุมากกว่าหรือเท่ากับ90ปี" fill="#8884d8" />
+
+                </BarChart>
+
+                <h1 align="center" className="animated  zoomIn delay-2s" >ตารางยอดผู้ได้รับเบี้ยยังชีพ ประเภทผู้สูงอายุ</h1>
                 <br/>
                 <Table borderless>
                     <thead>
@@ -59,12 +73,15 @@ class Namelist extends Component {
                             <td>{obj.รวม}</td>
                             <td>{obj.จำนวนเงินทั้งสิ้น}</td>
                         </tr>
-                        
+
                     </tbody>
                     ))}
                 </Table>
 
+
+
             </div>
+         
         )
     }
 }

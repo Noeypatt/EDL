@@ -5,26 +5,12 @@
     height: 100vh;
     margin-left: 0%;
     margin-right: 0%;
-    background: url(https://wallpapercave.com/wp/T3c87mH.jpg) no-repeat;
+    background: url(bglogin1.jpg) no-repeat;
     background-size: cover;
     position:fixed;
-    
+    opacity: 0.8;    
 
 }
-
-.BGL2
-{
-    width: 100%;
-    height: 100vh;
-    margin-left: 0%;
-    margin-right: 0%;
-    background: url(https://wallpapercave.com/wp/T3c87mH.jpg) no-repeat;
-    background-size: cover;
-    position:fixed;
-    
-
-}
-
 
 #Box
 {
@@ -37,9 +23,3 @@
     
 }
 
-
-/*font-family: 'Prompt', sans-serif;
-BGL2 https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/E5A-UKCHl/tropical-island-background-traditional-wooden-boats-on-sea-shore-of-exotic-coast-near-phuket-in-thailand-popular-travel-destination-for-summer-vacations_eh2rkiyll__F0000.png
-BGL1 https://clipart.wpblink.com/sites/default/files/wallpaper/horizon-clipart/267199/horizon-clipart-early-morning-sunrise-267199-6932070.jpg
-
-*/

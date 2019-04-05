@@ -2,6 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Route, Router } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'primereact/resources/themes/nova-light/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 
 import Home from './Home/Home'
 import Admin from './Header/Login/Admin'
@@ -24,6 +27,7 @@ ReactDOM.render(
     <Router history={customHistory}>
         <div>
             <header>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
                 <link href="https://fonts.googleapis.com/css?family=Pacifico|Prompt|Courgette" rel="stylesheet" />
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
 
