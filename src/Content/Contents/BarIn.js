@@ -24,7 +24,7 @@ class Barin extends Component {
             <div className="Barin" >
 
                 <Navbar bg-tranparent fixed-top light expand="lg">
-                    <NavbarBrand href="/App"><h5>ย้อนกลับ</h5></NavbarBrand>
+                    <NavbarBrand href="/"><h5>ย้อนกลับ</h5></NavbarBrand>
                 </Navbar>
 
             </div>

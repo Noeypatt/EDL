@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../Content.css'
-import Barin from './BarIn'
+import Barin from './Barin'
 
 
 class Activities extends Component {

@@ -5,6 +5,7 @@ import './Content.css';
 import Namelist from './Contents/Namelist';
 
 
+
 class Content extends Component {
 
     render() {
@@ -14,6 +15,7 @@ class Content extends Component {
                     <div class="row" >
                         <div class="col-lg-12" >
                             <Namelist/>
+              
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ class Content extends Component {
 
     render() {
         return (
-            <div >
+            <div  >
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-3">

@@ -7,10 +7,24 @@ import hospital from './img/logo/hospital.svg'
 import file from './img/logo/file1.svg'
 import doc from './img/logo/doc1.svg'
 import car from './img/logo/car.svg'
-// import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, CartesianGrid } from 'recharts';
-// const data = [{ name: 'Page A', uv: 400, pv: 2400, amt: 2400 }];
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+
 
 class Service extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            modal: false
+        };
+
+        this.toggle = this.toggle.bind(this);
+    }
+
+    toggle() {
+        this.setState(prevState => ({
+            modal: !prevState.modal
+        }));
+    }
 
     render() {
         return (
@@ -43,7 +57,7 @@ class Service extends Component {
                             </div>
 
                             <div className="col-lg-3 col-sm-6 col-xs-6">
-                                <a href="#"><img className="pic" src={hospital} width="50px" /></a>
+                                <a href="/Hospital"><img className="pic" src={hospital} width="50px" /></a>
                                 <div className="card-body">
                                     <h5 className="card-title">โรงพยาบาลใกล้บ้าน</h5>
                                     <p className="card-text"></p>
@@ -68,10 +82,20 @@ class Service extends Component {
 
 
                             <div className="col-lg-3 col-sm-6 col-xs-6">
-                                <a href="#"><img className="pic" src={car} width="50px" /></a>
+                               <img onClick={this.toggle} className="pic" src={car} width="50px" />{this.props.buttonLabel}
                                 <div className="card-body">
                                     <h5 className="card-title">สายด่วน เหตุฉุกเฉิน</h5>
-                                    <p className="card-text"></p>
+                                   
+                                    <Modal id="font" isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+                                        <ModalHeader toggle={this.toggle}><h5>สายด่วน</h5></ModalHeader>
+                                        <ModalBody>
+                                            <p>สายด่วน 1669</p>
+                                        </ModalBody>
+                                        {/* <ModalFooter>
+                                            <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
+                                            <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+                                        </ModalFooter> */}
+                                    </Modal>
                                 </div>
                             </div>
 
@@ -80,15 +104,6 @@ class Service extends Component {
                     </div>
 
                 </div>
-
-                {/* <BarChart width={600} height={300} data={data}>
-                    <XAxis dataKey="name" stroke="#8884d8" />
-                    <YAxis />
-                    <Tooltip wrapperStyle={{ width: 100, backgroundColor: '#ccc' }} />
-                    <Legend width={100} wrapperStyle={{ top: 40, right: 20, backgroundColor: '#f5f5f5', border: '1px solid #d5d5d5', borderRadius: 3, lineHeight: '40px' }} />
-                    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-                    <Bar type="monotone" dataKey="uv" fill="#8884d8" barSize={30} />
-                </BarChart> */}
 
             </div>
         );

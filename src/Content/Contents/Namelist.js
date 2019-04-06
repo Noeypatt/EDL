@@ -30,9 +30,12 @@ class Namelist extends Component {
         return (
             <div id="font">
 
-                <BarChart width={730} height={250} data={data}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="จังหวัด" />
+                <h1 align="center" className="animated  zoomIn delay-2s" >ตารางยอดผู้ได้รับเบี้ยยังชีพ ประเภทผู้สูงอายุ</h1>
+                <br />
+
+                <BarChart width={500} height={250} data={data}>
+                    <CartesianGrid strokeDasharray="0 0" />
+                    <XAxis dataKey="อำเภอ" />
                     <YAxis />
                     <Tooltip />
                     <Legend />
@@ -43,8 +46,8 @@ class Namelist extends Component {
 
                 </BarChart>
 
-                <h1 align="center" className="animated  zoomIn delay-2s" >ตารางยอดผู้ได้รับเบี้ยยังชีพ ประเภทผู้สูงอายุ</h1>
-                <br/>
+                {/* <h1 align="center" className="animated  zoomIn delay-2s" >ตารางยอดผู้ได้รับเบี้ยยังชีพ ประเภทผู้สูงอายุ</h1>
+                <br />
                 <Table borderless>
                     <thead>
                         <tr>
@@ -60,28 +63,28 @@ class Namelist extends Component {
                         </tr>
                     </thead>
 
-                    {data.map(obj => (    
-                    <tbody>
-                        <tr>
-                            <th scope="row">{obj.จังหวัด}</th>
-                            <td>{obj.อำเภอ}</td>
-                            <td>{obj.อปท}</td>
-                            <td>{obj.อายุ60ถึง69ปี}</td>
-                            <td>{obj.อายุ70ถึง79ปี}</td>
-                            <td>{obj.อายุ80ถึง89ปี}</td>
-                            <td>{obj.อายุมากกว่าหรือเท่ากับ90ปี}</td>
-                            <td>{obj.รวม}</td>
-                            <td>{obj.จำนวนเงินทั้งสิ้น}</td>
-                        </tr>
+                    {data.map(obj => (
+                        <tbody>
+                            <tr>
+                                <th scope="row">{obj.จังหวัด}</th>
+                                <td>{obj.อำเภอ}</td>
+                                <td>{obj.อปท}</td>
+                                <td>{obj.อายุ60ถึง69ปี}</td>
+                                <td>{obj.อายุ70ถึง79ปี}</td>
+                                <td>{obj.อายุ80ถึง89ปี}</td>
+                                <td>{obj.อายุมากกว่าหรือเท่ากับ90ปี}</td>
+                                <td>{obj.รวม}</td>
+                                <td>{obj.จำนวนเงินทั้งสิ้น}</td>
+                            </tr>
 
-                    </tbody>
+                        </tbody>
                     ))}
-                </Table>
+                </Table> */}
 
 
 
             </div>
-         
+
         )
     }
 }
