@@ -7,8 +7,9 @@
     margin-right: 0%;
     background: url(bglogin1.jpg) no-repeat;
     background-size: cover;
-    position:fixed;
+    position: relative;
     opacity: 0.8;    
+    max-width: 100%;
 
 }
 
@@ -19,7 +20,7 @@
     opacity: 0.8;
     border-radius: 50px;
     background: white;
-  
+    font-family: 'Prompt', sans-serif;
     
 }
 

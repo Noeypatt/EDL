@@ -12,6 +12,7 @@ import Admin from './Header/Login/Admin'
 import Expand from './Header/Contents/Expand'
 import Activities from './Content/Contents/Activities'
 import Hospital from './Content/Contents/Hospital'
+import Disease from './Content/Contents/Disease'
 
 import App from './App'
 
@@ -48,6 +49,7 @@ ReactDOM.render(
        
             <Route path="/Hospital" component={Hospital} />
             <Route path="/Admin" component={Admin} />
+            <Route path="/Disease" component={Disease} />
             
 
 
