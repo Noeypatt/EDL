@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Bar from './Bar'
+import Baremail from './Baremail'
 import './Login.css'
 
 
@@ -7,7 +7,7 @@ class Addmin extends Component {
     render() {
         return (
             <div className="BGL1">
-                <Bar />
+                <Baremail />
                 <div  class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">

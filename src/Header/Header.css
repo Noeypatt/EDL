@@ -4,6 +4,12 @@
     background-color: transparent;
 }
 
+.Barin
+{
+    font-family: 'Prompt', sans-serif;
+   
+}
+
 .head:hover {
     opacity: 0.3;
   }
@@ -15,4 +21,26 @@
         opacity: 0.8;
     }
     
+}
+
+/*contact*/
+#font
+{
+    
+    font-family: 'Prompt', sans-serif;
+}
+
+#Contact
+{
+    background: url(welcome.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;  
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+#Bg
+{
+    background-color: #c4def6;
+    border-radius:30px; 
 }

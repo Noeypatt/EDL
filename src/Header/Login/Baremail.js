@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../Header.css'
-import {  Navbar, NavbarBrand } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 
-class Bar extends Component {
+
+class Baremail extends Component {
 
     constructor(props) {
         super(props);
@@ -23,13 +24,13 @@ class Bar extends Component {
         return (
             <div className="Bar" >
 
-                <Navbar bg-tranparent fixed-top light expand="lg">
-                    <NavbarBrand href="/"><h3>Elderly</h3></NavbarBrand>
+                <Navbar className="Barin" bg-transparent fixed-top light expand="md">
+                    <NavbarBrand href="/"><h3 className="head">Elderly</h3></NavbarBrand>
+                    <NavbarToggler onClick={this.toggle} />
                 </Navbar>
-
             </div>
         );
     }
 
 }
-export default Bar;
+export default Baremail;

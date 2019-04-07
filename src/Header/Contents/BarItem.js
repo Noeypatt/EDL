@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './Header.css'
+import '../Header.css'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 
-class Header extends Component {
+
+class BarItem extends Component {
 
     constructor(props) {
         super(props);
@@ -21,26 +22,14 @@ class Header extends Component {
     }
     render() {
         return (
-            <div >
+            <div className="Bar" >
 
-                <Navbar className="Bar" bg-transparent fixed-top light expand="md">
+                <Navbar className="Barin" bg-transparent fixed-top light expand="md">
                     <NavbarBrand href="/"><h3 className="head">Elderly</h3></NavbarBrand>
-                    <NavbarToggler onClick={this.toggle} />
-                    <Collapse id="Toggle" isOpen={this.state.isOpen} navbar>
+                    
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <NavLink href="/App">หน้าหลัก</NavLink>
-                            </NavItem>
-
-                            <NavItem>
-                                <NavLink href="#">เกี่ยวกับ</NavLink>
-                            </NavItem>
-
-                            <NavItem>
-                                <NavLink href="/Contact">ติดต่อ</NavLink>
-                            </NavItem>
-
-                            <UncontrolledDropdown nav inNavbar>
+                        
+                            <UncontrolledDropdown >
                                 <DropdownToggle nav caret>
                                     Login
                                 </DropdownToggle>
@@ -57,14 +46,13 @@ class Header extends Component {
                                 </DropdownMenu>
 
                             </UncontrolledDropdown>
-                            
-                        </Nav>
-                    </Collapse>
-                </Navbar>
 
+                        </Nav>
+                    
+                </Navbar>
             </div>
         );
     }
 
 }
-export default Header;
+export default BarItem;

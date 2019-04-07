@@ -8,6 +8,7 @@ import 'primeicons/primeicons.css';
 
 import Home from './Home/Home'
 import Admin from './Header/Login/Admin'
+import Contact from './Header/Contents/Contact'
 
 import Expand from './Header/Contents/Expand'
 import Activities from './Content/Contents/Activities'
@@ -44,6 +45,7 @@ ReactDOM.render(
             <Route exact path="/" component={Home} />
             <Route path="/App" component={App} />
             <Route path="/Expand" component={Expand} />
+            <Route path="/Contact" component={Contact} />
           
             <Route path="/Activities" component={Activities} />
        
