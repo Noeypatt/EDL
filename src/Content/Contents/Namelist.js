@@ -30,19 +30,19 @@ class Namelist extends Component {
         return (
             <div id="font">
 
-                <h1 align="center" className="animated  zoomIn delay-2s" >ตารางยอดผู้ได้รับเบี้ยยังชีพ ประเภทผู้สูงอายุ</h1>
+                <h1 align="center" className="animated  zoomIn delay-2s" >ยอดผู้ได้รับเบี้ยยังชีพ ประเภทผู้สูงอายุ</h1>
                 <br />
 
-                <BarChart width={500} height={250} data={data}>
+                <BarChart  className="animated  zoomIn delay-3s" width={550} height={250} data={data}>
                     <CartesianGrid strokeDasharray="0 0" />
                     <XAxis dataKey="อำเภอ" />
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="อายุ60ถึง69ปี" fill="#8884d8" />
-                    <Bar dataKey="อายุ70ถึง79ปี" fill="#8884d8" />
-                    <Bar dataKey="อายุ80ถึง89ปี" fill="#8884d8" />
-                    <Bar dataKey="อายุมากกว่าหรือเท่ากับ90ปี" fill="#8884d8" />
+                    <Bar dataKey="อายุ60ถึง69ปี" fill="#194d33" />
+                    <Bar dataKey="อายุ70ถึง79ปี" fill="#388e3c" />
+                    <Bar dataKey="อายุ80ถึง89ปี" fill="#4caf50" />
+                    <Bar dataKey="อายุมากกว่าหรือเท่ากับ90ปี" fill="#81c784" />
 
                 </BarChart>
 

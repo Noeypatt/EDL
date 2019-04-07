@@ -44,3 +44,16 @@
     background-color: #c4def6;
     border-radius:30px; 
 }
+
+/*About*/
+#About
+{
+    background: url(about1.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;  
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    position: relative;
+   
+
+}

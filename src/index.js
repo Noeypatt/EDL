@@ -9,9 +9,9 @@ import 'primeicons/primeicons.css';
 import Home from './Home/Home'
 import Admin from './Header/Login/Admin'
 import Contact from './Header/Contents/Contact'
+import About from './Content/Contents/About'
 
 import Expand from './Header/Contents/Expand'
-import Activities from './Content/Contents/Activities'
 import Hospital from './Content/Contents/Hospital'
 import Disease from './Content/Contents/Disease'
 
@@ -46,8 +46,9 @@ ReactDOM.render(
             <Route path="/App" component={App} />
             <Route path="/Expand" component={Expand} />
             <Route path="/Contact" component={Contact} />
+            <Route path="/About" component={About} />
           
-            <Route path="/Activities" component={Activities} />
+           
        
             <Route path="/Hospital" component={Hospital} />
             <Route path="/Admin" component={Admin} />

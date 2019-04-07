@@ -8,6 +8,7 @@
 {
     font-family: 'Prompt', sans-serif;
     color: #000;
+    text-align: left;
     
 }
 
@@ -28,4 +29,13 @@
 .stripes
 {
   margin-left: 10px;
+}
+
+/*Map*/
+.Map{
+  text-align: center;
+}
+
+.picmap:hover {
+  opacity: 0.3;
 }

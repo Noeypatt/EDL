@@ -18,7 +18,7 @@ class Hospital extends Component {
                             src={Pic1}
                             alt="First slide"
                         />
-                        <Carousel.Caption id="font" className="carousel-caption d-none d-lg-block active">
+                        <Carousel.Caption id="fontb" className="carousel-caption d-none d-lg-block active">
                             <h3 >โรงพยาบาลใกล้เคียงคุณ</h3>
                             <p></p>
                         </Carousel.Caption>
