@@ -19,7 +19,7 @@ class Allowance extends Component {
                         <div className="row">
 
                             <div className="col-lg-3 col-sm-6 col-xs-6">
-                            <a href="/About"><img className="pic" src="https://image.flaticon.com/icons/svg/1256/1256650.svg" width="50px" /></a>
+                            <a href="/AboutA"><img className="pic" src="https://image.flaticon.com/icons/svg/1256/1256650.svg" width="50px" /></a>
                                 <div className="card-body">
                                     <h5 className="card-title">หน่วยงานที่เกี่ยวข้อง</h5>
                                     <p className="card-text"></p>

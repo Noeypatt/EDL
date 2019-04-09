@@ -8,12 +8,15 @@ import 'primeicons/primeicons.css';
 
 import Home from './Home/Home'
 import Admin from './Header/Login/Admin'
+import About from './Header/Contents/About'
 import Contact from './Header/Contents/Contact'
-import About from './Content/Contents/About'
+import AboutA from './Content/Contents/AboutA'
+import AboutH from './Content/Contents/AboutH'
 
 import Expand from './Header/Contents/Expand'
 import Hospital from './Content/Contents/Hospital'
 import Disease from './Content/Contents/Disease'
+import HospitalHome from './Content/Contents/HospitalHome'
 
 import App from './App'
 
@@ -44,12 +47,13 @@ ReactDOM.render(
 
             <Route exact path="/" component={Home} />
             <Route path="/App" component={App} />
+            <Route path="/About" component={About} />
             <Route path="/Expand" component={Expand} />
             <Route path="/Contact" component={Contact} />
-            <Route path="/About" component={About} />
-          
+            <Route path="/AboutA" component={AboutA} />
+            <Route path="/AboutH" component={AboutH} />
            
-       
+            <Route path="/HospitalHome" component={HospitalHome} />
             <Route path="/Hospital" component={Hospital} />
             <Route path="/Admin" component={Admin} />
             <Route path="/Disease" component={Disease} />

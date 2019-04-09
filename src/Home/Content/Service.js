@@ -7,7 +7,7 @@ import hospital from './img/logo/hospital.svg'
 import file from './img/logo/file1.svg'
 import doc from './img/logo/doc1.svg'
 import car from './img/logo/car.svg'
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import {  Modal, ModalHeader, ModalBody } from 'reactstrap';
 
 
 class Service extends Component {
@@ -41,7 +41,7 @@ class Service extends Component {
                         <div className="row">
 
                             <div className="col-lg-3 col-sm-6 col-xs-6">
-                                <a href="#"><img className="pic" src={wheelchair} width="50px" /></a>
+                                <a href="/AboutH"><img className="pic" src={wheelchair} width="50px" /></a>
                                 <div className="card-body">
                                     <h5 className="card-title">บริการดูแลผู้สูงอายุ</h5>
                                     <p className="card-text"></p>
@@ -49,7 +49,7 @@ class Service extends Component {
                             </div>
 
                             <div className="col-lg-3 col-sm-6 col-xs-6">
-                                <a href="#"><img className="pic" src={docter} width="50px" /></a>
+                                <a href="/Hospital"><img className="pic" src={docter} width="50px" /></a>
                                 <div className="card-body">
                                     <h5 className="card-title">การตรวจสุขภาพ</h5>
                                     <p className="card-text"></p>
@@ -57,7 +57,7 @@ class Service extends Component {
                             </div>
 
                             <div className="col-lg-3 col-sm-6 col-xs-6">
-                                <a href="/Hospital"><img className="pic" src={hospital} width="50px" /></a>
+                                <a href="/HospitalHome"><img className="pic" src={hospital} width="50px" /></a>
                                 <div className="card-body">
                                     <h5 className="card-title">โรงพยาบาลใกล้บ้าน</h5>
                                     <p className="card-text"></p>
@@ -82,11 +82,11 @@ class Service extends Component {
 
 
                             <div className="col-lg-3 col-sm-6 col-xs-6">
-                               <img onClick={this.toggle} className="pic" src={car} width="50px" />{this.props.buttonLabel}
+                               <img src={car} onClick={this.toggle} className="pic"  width="50px" />{this.props.buttonLabel}
                                 <div className="card-body">
                                     <h5 className="card-title">สายด่วน เหตุฉุกเฉิน</h5>
                                    
-                                    <Modal id="font" isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+                                    <Modal id="fontb" isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                                         <ModalHeader toggle={this.toggle}><h5>สายด่วน</h5></ModalHeader>
                                         <ModalBody>
                                             <p>สายด่วน 1669</p>

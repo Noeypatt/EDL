@@ -12,13 +12,12 @@ class Contact extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div id="Contact" className="jumbotron">
+                            <br />
                                 <h1 className="animated zoomIn delay-1s display-4" >ระบบฐานข้อมูลผู้สูงอายุ</h1>
-                                {/* <p className="lead">การติดต่อหน่วยงานที่เกี่ยวข้อง</p>
-                               <hr className="animated zoomIn delay-3s my-4"/>
-                                <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
-                               */}
-                                <p></p><br />
-                                <a class="btn btn-primary btn-lg animated bounceInLeft delay-3s" href="#" role="button">ติดต่อเรา</a>
+                                <br />
+                                <a href="/#"><button class="btn btn-primary btn-lg animated bounceInLeft delay-3s">
+                                    ติดต่อเรา
+                                </button></a> 
                                 <br /><br />
 
                                 <br />
@@ -36,12 +35,12 @@ class Contact extends Component {
                         <div className="col-lg-4">
                             <div class=" animated zoomIn delay-5s media" id="Bg">
                             
-                              <h1>     </h1>  <img src="https://image.flaticon.com/icons/svg/1721/1721584.svg" class="mr-3" width="50px" alt="Tel" />
+                               <img src="https://image.flaticon.com/icons/svg/1721/1721584.svg" class="mr-3" width="50px" alt="Tel" />
                                 <div class="media-body">
                                     <br />
                                     <h5 class="mt-0">Telephone</h5>
                                     09-xxxxxxxx
-                                    <br />
+                                    <br /><br/>
                                 </div>
                                 <br />
                             </div>
@@ -56,7 +55,7 @@ class Contact extends Component {
                                 <div class="media-body">
                                     <br />
                                     <h5 class="mt-0">Call Center</h5>
-                                    
+                                    <br/>
                                     <br />
                                 </div>
                             </div>

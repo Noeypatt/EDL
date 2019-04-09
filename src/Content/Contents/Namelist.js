@@ -28,7 +28,7 @@ class Namelist extends Component {
     render() {
         const { data } = this.state
         return (
-            <div id="font">
+            <div id="fontb">
 
                 <h1 align="center" className="animated  zoomIn delay-2s" >ยอดผู้ได้รับเบี้ยยังชีพ ประเภทผู้สูงอายุ</h1>
                 <br />

@@ -6,7 +6,6 @@ import Content from '../Home/Content/Content'
 import Service from './Content/Service'
 import Footer from '../Footer/Footer'
 import Allowance from './Content/Allowance';
-import Hospital from './Content/Hospital';
 
 
 
@@ -18,7 +17,6 @@ class Home extends Component {
                 <Header /><br/>
                 <Content />
                 <Allowance/><br/>
-                <Hospital/><br/>
                 <Service />
                 
                 <Footer/>

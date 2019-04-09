@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './Content.css'
+import '../Home.css'
 
 class Content extends Component {
 
@@ -19,7 +19,7 @@ class Content extends Component {
                                         <div className="jumbotron-caption d-none d-lg-block active">
                                             <h1>Elderly DataBase</h1>
                                             <h5 className="lead"> เว็บไซต์เเสดงจำนวนประชากร เเละข่าวสารเกี่ยวกับผู้สูงอายุ </h5><br/>
-                                            <a href="/App" className="btn btn-primary btn-md active"  role="button" aria-pressed="true">เข้าสู่เว็บไซต์</a>
+                                            <a href="/App" className="btn btn-primary btn-md active"  role="button" aria-pressed="true"><h5>เข้าสู่เว็บไซต์</h5></a>
                                         </div>
                                     </div>
                                 </div>

@@ -2,20 +2,17 @@
 {
     font-family: 'Prompt', sans-serif;
     background-color:transparent;
+     text-align: center;
 }
 
-#font
+.font
 {
     font-family: 'Prompt', sans-serif;
     color: #000;
-    text-align: left;
+    text-align: center;
     
 }
 
-#Block
-{
-  text-align: center;
-}
 
 #font2
 {
@@ -34,8 +31,37 @@
 /*Map*/
 .Map{
   text-align: center;
+  background-color: lightcyan;
 }
 
-.picmap:hover {
+#picmap:hover {
   opacity: 0.3;
+}
+
+/*About*/
+.CarouselA
+{
+    margin-top: -400px;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    color: black;
+    opacity: 0.85;
+}
+#radius
+{
+  border-radius: 50px;
+}
+
+/*Hospital*/
+#fontb
+{
+    color: black;
+    font-family: 'Prompt', sans-serif;
+}
+
+#font
+{
+    color: white;
+    font-family: 'Prompt', sans-serif;
 }

@@ -26,7 +26,8 @@
 /*contact*/
 #font
 {
-    
+    text-align: center;
+    color: black;
     font-family: 'Prompt', sans-serif;
 }
 
@@ -37,23 +38,34 @@
     width: 100%;  
     font-family: 'Prompt', sans-serif;
     text-align: center;
+    color: black;
 }
 
 #Bg
 {
     background-color: #c4def6;
     border-radius:30px; 
+    color: black;
+    text-align: left;
 }
 
 /*About*/
-#About
+#about
 {
-    background: url(about1.jpg) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     width: 100%;  
     font-family: 'Prompt', sans-serif;
     text-align: center;
-    position: relative;
+    color: black;
    
+}
+
+#aboutcontent
+{
+    font-family: 'Prompt', sans-serif;
+    background-color: lightcoral;
+    text-align: center;
+    border-radius: 50px;
 
 }

@@ -22,7 +22,6 @@ class Header extends Component {
     render() {
         return (
             <div >
-
                 <Navbar className="Bar" bg-transparent fixed-top light expand="md">
                     <NavbarBrand href="/"><h3 className="head">Elderly</h3></NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
@@ -33,7 +32,7 @@ class Header extends Component {
                             </NavItem>
 
                             <NavItem>
-                                <NavLink href="#">เกี่ยวกับ</NavLink>
+                                <NavLink href="/About">เกี่ยวกับ</NavLink>
                             </NavItem>
 
                             <NavItem>
