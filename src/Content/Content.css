@@ -33,10 +33,15 @@
   text-align: center;
   background-color: lightcyan;
 }
+#click
+{
+  background-color: transparent;
+}
 
 #picmap:hover {
   opacity: 0.3;
 }
+
 
 /*About*/
 .CarouselA

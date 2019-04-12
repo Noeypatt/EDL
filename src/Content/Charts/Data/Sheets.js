@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Tabletop from 'tabletop';
 import { Table } from 'reactstrap';
-import '../Content.css'
+import '../../Content.css'
 import { BarChart, XAxis, YAxis, Tooltip, Legend, CartesianGrid, Bar } from 'recharts';
 
 class Namelist extends Component {
@@ -27,26 +27,11 @@ class Namelist extends Component {
 
     render() {
         const { data } = this.state
+
         return (
-            <div id="fontb">
+            <div className="animated  zoomIn delay-5s" id="fontb">
 
-                <h1 align="center" className="animated  zoomIn delay-2s" >ยอดผู้ได้รับเบี้ยยังชีพ ประเภทผู้สูงอายุ</h1>
-                <br />
-
-                <BarChart  className="animated  zoomIn delay-3s" width={550} height={250} data={data}>
-                    <CartesianGrid strokeDasharray="0 0" />
-                    <XAxis dataKey="อำเภอ" />
-                    <YAxis />
-                    <Tooltip />
-                    <Legend />
-                    <Bar dataKey="อายุ60ถึง69ปี" fill="#194d33" />
-                    <Bar dataKey="อายุ70ถึง79ปี" fill="#388e3c" />
-                    <Bar dataKey="อายุ80ถึง89ปี" fill="#4caf50" />
-                    <Bar dataKey="อายุมากกว่าหรือเท่ากับ90ปี" fill="#81c784" />
-
-                </BarChart>
-
-                {/* <h1 align="center" className="animated  zoomIn delay-2s" >ตารางยอดผู้ได้รับเบี้ยยังชีพ ประเภทผู้สูงอายุ</h1>
+                <h1 align="center">ตารางยอดผู้ได้รับเบี้ยยังชีพ ประเภทผู้สูงอายุ</h1>
                 <br />
                 <Table borderless>
                     <thead>
@@ -79,7 +64,7 @@ class Namelist extends Component {
 
                         </tbody>
                     ))}
-                </Table> */}
+                </Table>
 
 
 

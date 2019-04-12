@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Content.css';
 import Map from './Charts/Elderly'
-import Namelist from './Contents/Namelist';
+import Namelist from './Charts/Data/Namelist'
+import Sheets from './Charts/Data/Sheets'
+
+
 
 
 
@@ -10,15 +13,21 @@ class Content extends Component {
 
     render() {
         return (
-            <div>   
-                <br/>
+            <div className="Map">   
+                <br/><br/>
                 <Map/>
                 <br/>
                 <div class="container-fluid" >
                     <div class="row" >
                         <div class="col-lg-12" >
-                            <Namelist/>
+                           <Sheets/>
               
+                        </div>
+                    </div>
+
+                    <div class="row" >
+                        <div class="col-lg-12" >
+                         
                         </div>
                     </div>
                 </div>
