@@ -21,7 +21,7 @@ import Disease from './Content/Contents/Disease'
 import HospitalHome from './Content/Contents/HospitalHome'
 
 import App from './App'
-
+import load from './Content/Load'
 
 
 
@@ -34,18 +34,22 @@ ReactDOM.render(
     <Router history={customHistory}>
         <div>
             <header>
-            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+                <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
                 <link href="https://fonts.googleapis.com/css?family=Pacifico|Prompt|Courgette" rel="stylesheet" />
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
 
-                <link rel="stylesheet" href="animate.min.css"/>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"/>
+                <link rel="stylesheet" href="animate.min.css" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+
+                <link rel="stylesheet" type="text/css" href="loading-bar.css" />
+                <script type="text/javascript" src="loading-bar.js"></script>
 
                 {/* <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> */}
 
             </header>
+            <Route path="/load" component={load} />
 
             <Route exact path="/" component={Home} />
             <Route path="/App" component={App} />
@@ -55,12 +59,12 @@ ReactDOM.render(
             <Route path="/AboutA" component={AboutA} />
             <Route path="/AboutH" component={AboutH} />
             <Route path="/ServiceA" component={ServiceA} />
-           
+
             <Route path="/HospitalHome" component={HospitalHome} />
             <Route path="/Hospital" component={Hospital} />
             <Route path="/Admin" component={Admin} />
             <Route path="/Disease" component={Disease} />
-            
+
 
 
         </div>

@@ -6,8 +6,6 @@ import Sheets from './Charts/Data/Sheets'
 
 
 
-
-
 class Content extends Component {
 
     render() {
@@ -16,6 +14,7 @@ class Content extends Component {
                 <br/><br/>
                 <Map/>
                 <br/>
+
                 <div class="container-fluid" >
                     <div class="row" >
                         <div class="col-lg-12" >
@@ -23,15 +22,8 @@ class Content extends Component {
               
                         </div>
                     </div>
-
-                    <div class="row" >
-                        <div class="col-lg-12" >
-                         
-                        </div>
-                    </div>
                 </div>
 
-                
             </div>
 
 

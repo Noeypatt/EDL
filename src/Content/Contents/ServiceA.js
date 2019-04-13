@@ -7,7 +7,9 @@ import { Jumbotron, UncontrolledCollapse, Button, CardBody, Card } from 'reactst
 class ServiceA extends Component {
     render() {
         return (
+            
             <div className="font">
+            
             <Barin />
                 <br />
                 <h1>การบริการ</h1>
@@ -28,7 +30,7 @@ class ServiceA extends Component {
                                     <Button color="primary" id="toggler1" >เบี้ยยังชีพผู้สูงอายุ</Button><br /><br />
                                     <Button color="primary" id="toggler2" >อัตราเบี้ยยังชีพผู้สูงอายุ</Button><br /><br />
                                     <Button color="primary" id="toggler3" >ผู้ถือสิทธิเเทน</Button><br /><br />
-                              
+                                    <Button color="primary" id="toggler4" >บัตรประชาชน</Button><br /><br />
                                 </p>
                             </Jumbotron>
                         </div>
