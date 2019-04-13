@@ -17,8 +17,7 @@ class Home extends Component {
                 <Header /><br/>
                 <Content />
                 <Allowance/><br/>
-                <Service />
-                
+                <Service />            
                 <Footer/>
 
             </div>

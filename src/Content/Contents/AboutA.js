@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
 import Barin from './Barin';
 import '../../Content/Content.css'
 
-import Pic1 from '../img/team0.jpg'
-import Pic3 from '../img/team1.jpg'
-import Pic2 from '../img/team2.jpg'
+import Pic1 from '../img/AboutA/team0.jpg'
+import Pic3 from '../img/AboutA/team1.jpg'
+import Pic2 from '../img/AboutA/team2.jpg'
+import Megaphone from '../img/AboutA/Megaphone.svg'
 
 
 class About extends Component {
@@ -73,7 +74,7 @@ class About extends Component {
                             <img src="http://phuket.dop.go.th/images/cover.png" width="20px" class="card-img-top" alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">ศูนย์พัฒนาการจัดสวัสดิการสังคมผู้สูงอายุภูเก็ต</h5>
-                                <h6>ข่าวประชาสัมพันธ์ <a href="http://phuket.dop.go.th/publicizes"><img src="https://image.flaticon.com/icons/svg/174/174240.svg" width="30px" /></a></h6>
+                                <h6>ข่าวประชาสัมพันธ์ <a href="http://phuket.dop.go.th/publicizes"><img src={Megaphone} width="30px" /></a></h6>
                                 <a href="http://phuket.dop.go.th/index"><button type="button" class="btn btn-primary">อ่านต่อ</button></a>
                             </div>
                         </div>

@@ -52,6 +52,7 @@
     margin-right: 0%;
     color: black;
     opacity: 0.85;
+    background-size: cover;
 }
 #radius
 {
@@ -69,4 +70,12 @@
 {
     color: white;
     font-family: 'Prompt', sans-serif;
+}
+
+/*ServiceA*/
+#Cardtext
+{
+  font-family: 'Prompt', sans-serif;
+  text-align: left;
+
 }

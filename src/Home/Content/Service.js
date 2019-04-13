@@ -73,7 +73,7 @@ class Service extends Component {
                             </div>
 
                             <div className="col-lg-3 col-sm-6 col-xs-6">
-                                <a href="#"><img className="pic" src={doc} width="50px" /></a>
+                                <a href="/#"><img className="pic" src={doc} width="50px" /></a>
                                 <div className="card-body">
                                     <h5 className="card-title">เอกสารที่จำเป็น</h5>
                                     <p className="card-text"></p>

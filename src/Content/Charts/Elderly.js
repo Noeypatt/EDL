@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import '../Content.css'
 // import { Tooltip } from 'reactstrap';
-import { Collapse, Button, CardBody, Card } from 'reactstrap';
+/*
 import K from './Map/3.png' //กะทู้
 import T from './Map/4.png' //ถลาง
 import M from './Map/2.png' //เมือง
+*/
 import Map from './Map/map.png'
 import Namelist from './Data/Namelist'
 

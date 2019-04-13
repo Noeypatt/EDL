@@ -12,6 +12,8 @@ import About from './Header/Contents/About'
 import Contact from './Header/Contents/Contact'
 import AboutA from './Content/Contents/AboutA'
 import AboutH from './Content/Contents/AboutH'
+import ServiceA from './Content/Contents/ServiceA'
+
 
 import Expand from './Header/Contents/Expand'
 import Hospital from './Content/Contents/Hospital'
@@ -52,6 +54,7 @@ ReactDOM.render(
             <Route path="/Contact" component={Contact} />
             <Route path="/AboutA" component={AboutA} />
             <Route path="/AboutH" component={AboutH} />
+            <Route path="/ServiceA" component={ServiceA} />
            
             <Route path="/HospitalHome" component={HospitalHome} />
             <Route path="/Hospital" component={Hospital} />

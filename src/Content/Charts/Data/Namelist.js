@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Tabletop from 'tabletop';
-import { Table } from 'reactstrap';
 import '../../Content.css'
 import { BarChart, XAxis, YAxis, Tooltip, Legend, CartesianGrid, Bar } from 'recharts';
-import {PieChart, Pie } from 'recharts';
 
 class Namelist extends Component {
     constructor() {

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Content.css';
 import Map from './Charts/Elderly'
-import Namelist from './Charts/Data/Namelist'
 import Sheets from './Charts/Data/Sheets'
 
 
