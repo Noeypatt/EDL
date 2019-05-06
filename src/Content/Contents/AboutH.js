@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import { Jumbotron} from 'reactstrap';
-import Barin from './Barin';
+import Barin from './BarIn';
 import '../Content.css'
 import Pic1 from '../img/AboutH/H1.jpg'
 import Pic2 from '../img/AboutH/activitive.jpg'

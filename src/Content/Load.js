@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import load from "./img/load.gif"
+import load from "./img/load4.gif"
 
 
 class Load extends Component {

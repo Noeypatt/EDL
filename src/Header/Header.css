@@ -2,6 +2,11 @@
 {
     font-family: 'Prompt', sans-serif;
     background-color: transparent;
+    padding-block-start: 0%;
+    padding-block-end: 0%;
+    padding-inline-start: 0%;
+    padding-inline-end: 0%;
+    padding-top: 0%;
 }
 
 .Barin

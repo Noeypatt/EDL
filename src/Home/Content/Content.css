@@ -69,68 +69,17 @@
     font-family: 'Pacifico', cursive;
 }
 
+.font
+{
+    font-size: calc(8px + 2vmin);
+}
+
 #Choice
 {
     font-family: 'Prompt', sans-serif;
     text-align: center; 
 }
 
-
-@media (max-width: 575.98px) { 
-    #Ser
-    {
-        text-align: center;
-        font-family: 'Pacifico', cursive;
-        margin-top: -20px;
-    }
- }
-
-@media (min-width: 768px) and (max-width: 819px) {
-    #Ser
-    {
-        text-align: center;
-        font-family: 'Pacifico', cursive;
-        margin-top: 80px;
-    }
-
-  }
-
-
-@media (min-width: 820px) and (max-width: 1099px) { 
-    #Ser
-    {
-        text-align: center;
-        font-family: 'Pacifico', cursive;
-        margin-top: 100px;
-    }
-}
-
-@media (min-width: 1100px) and (max-width: 1300px) { 
-    #Ser
-    {
-        text-align: center;
-        font-family: 'Pacifico', cursive;
-        margin-top: 120px;
-    }
-}
-
-@media (min-width: 1300px) and (max-width: 1500px) { 
-    #Ser
-    {
-        text-align: center;
-        font-family: 'Pacifico', cursive;
-        margin-top: 150px;
-    }
-}
-
-@media (min-width: 1500px) { 
-    #Ser
-    {
-        text-align: center;
-        font-family: 'Pacifico', cursive;
-        margin-top: 180px;
-    }
-}
 
 /* Help */
 #Helpcenter

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../../Content/Content.css'
-import Barin from './Barin';
+import Barin from './BarIn';
 import { Jumbotron, UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
 
 

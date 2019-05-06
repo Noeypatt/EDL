@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../Content.css'
-import Barin from './Barin';
+import Barin from './BarIn';
 
 class HospitalHome extends Component {
     render() {

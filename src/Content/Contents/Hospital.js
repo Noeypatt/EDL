@@ -5,7 +5,7 @@ import Pic1 from '../img/hp0.jpg'
 import Pic2 from '../img/hp1.jpg'
 import Pic3 from '../img/hp2.jpg'
 import '../Content.css'
-import Barin from './Barin'
+import Barin from './BarIn'
 
 
 class Hospital extends Component {

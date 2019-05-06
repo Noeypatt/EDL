@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Barin from './Barin'
+import Barin from './BarIn'
 import '../Content.css'
 import Tabletop from 'tabletop';
 import { Progress } from 'reactstrap';
