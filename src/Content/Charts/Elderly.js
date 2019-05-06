@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
 import '../Content.css'
-// import { Tooltip } from 'reactstrap';
-/*
-import K from './Map/3.png' //กะทู้
-import T from './Map/4.png' //ถลาง
-import M from './Map/2.png' //เมือง
-*/
 import Map from './Map/map.png'
 import Namelist from './Data/Namelist'
 
@@ -38,12 +32,6 @@ class Chart extends Component {
                         <div id="click" class="col-lg-6" >
                             <br/><br/><br/>
                             <Namelist/>
-
-                                {/* <img src={K} width="55px" /><br />
-                                <img src={T} width="100px" /><br />
-                                <img src={M} width="50px" /> */}
-
-                         
                         </div>
                     </div>
 

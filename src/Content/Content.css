@@ -83,5 +83,12 @@
 /*Load*/
 .Load
 {
+  margin-top: 250px; 
+}
+.BG-color
+{
+  background-color: lightcyan;
+  height: 100vh;
+  width: 100%;
   text-align: center;
 }
