@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './Service.css'
+import './Content.css'
 import wheelchair from './img/logo/wheelchair.svg'
 import docter from './img/logo/docter.svg'
 import hospital from './img/logo/hospital.svg'
@@ -29,7 +29,7 @@ class Service extends Component {
     render() {
         return (
             <div>
-                <div id="Helpcenter" className="container-fluid">
+                <div id="Helpcenter" className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <h1>Service of you</h1>
@@ -37,7 +37,7 @@ class Service extends Component {
                         </div>
                     </div>
 
-                    <div id="Helpchoice" className="container-fluid">
+                    <div id="Helpchoice" className="container">
                         <div className="row">
 
                             <div className="col-lg-3 col-sm-6 col-xs-6">

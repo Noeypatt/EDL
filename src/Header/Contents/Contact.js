@@ -15,7 +15,7 @@ class Contact extends Component {
                             <br />
                                 <h1 className="animated zoomIn delay-1s display-4" >ระบบฐานข้อมูลผู้สูงอายุ</h1>
                                 <br />
-                                <a href="/#"><button class="btn btn-primary btn-lg animated bounceInLeft delay-3s">
+                                <a href="/#"><button class="btn btn-primary btn-lg animated bounceInLeft delay-1s">
                                     ติดต่อเรา
                                 </button></a> 
                                 <br /><br />
@@ -33,7 +33,7 @@ class Contact extends Component {
                         </div>
 
                         <div className="col-lg-4">
-                            <div class=" animated zoomIn delay-5s media" id="Bg">
+                            <div  id="Bg">
                             
                                <img src="https://image.flaticon.com/icons/svg/1721/1721584.svg" class="mr-3" width="50px" alt="Tel" />
                                 <div class="media-body">
@@ -50,7 +50,7 @@ class Contact extends Component {
                         </div>
 
                         <div className="col-lg-4">
-                            <div class=" animated zoomIn delay-5s media" id="Bg">
+                            <div  id="Bg">
                                 <img src="https://image.flaticon.com/icons/svg/1392/1392056.svg" class="mr-3" width="50px" alt="callcenter" />
                                 <div class="media-body">
                                     <br />
@@ -79,3 +79,4 @@ class Contact extends Component {
 }
 export default Contact;
 
+//animated zoomIn delay-2s media

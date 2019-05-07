@@ -9,63 +9,184 @@
     opacity: 0.9;
 } 
 
+@media (min-width: 200px) and (max-width: 350px)  { 
+   .top
+   {
+    margin-top: 60px;
+   }
+   .BG
+{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    background: url("test.jpg")  no-repeat ;
+    padding: 0px;
+    height: 85vh;
+    opacity: 0.9;
+}
+}
 
-@media (min-width: 200px) and (max-width: 400px)  { 
+@media (min-width: 350px) and (max-width: 370px)  { 
     .top
     {
-     margin-top: 160px;
+     margin-top: 150px;
+    }
+    .BG
+    {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+        background: url("test.jpg")  no-repeat ;
+        padding: 0px;
+        height: 90vh;
+        opacity: 0.9;
     }
  }
 
- @media (min-width: 400px) and (max-width: 600px)  { 
-    .top
-    {
-     margin-top: 120px;
-    }
- }
+ @media (min-width: 370px) and (max-width: 400px)  { 
+   .top
+   {
+    margin-top: 125px;
+   }
+   .BG
+   {
+       margin-left: 0%;
+       margin-right: 0%;
+       margin-top: 0%;
+       background: url("test.jpg")  no-repeat ;
+       padding: 0px;
+       height: 85vh;
+       opacity: 0.9;
+   }
+}
 
- @media (min-width: 600px) and (max-width: 800px)  { 
-    .top
-    {
-     margin-top: 260px;
-    }
- }
+ @media (min-width: 400px) and (max-width: 500px)  { 
+   .top
+   {
+    margin-top: 130px;
+   }
+   
+}
 
- @media (min-width: 800px) and (max-width: 1030px) { 
-    .top
-    {
-     margin-top: 390px;
-    }
- }
+@media (min-width: 500px) and (max-width: 600px)  { 
+   .top
+   {
+    margin-top: 140px;
+   }
+   .BG
+   {
+       margin-left: 0%;
+       margin-right: 0%;
+       margin-top: 0%;
+       background: url("test.jpg")  no-repeat ;
+       padding: 0px;
+       height: 90vh;
+       opacity: 0.9;
+   }
+}
 
- @media (min-width: 1031px) and (max-width: 1300px) { 
-    .top
-    {
-     margin-top: 200px;
-    }
- }
 
- @media (min-width: 1310px) and (max-width: 1500px) { 
-    .top
-    {
-     margin-top: 200px;
-    }
- }
+@media (min-width: 601px) and (max-width: 700px)  { 
+   .top
+   {
+    margin-top: 150px;
+   }
+   .BG
+   {
+       margin-left: 0%;
+       margin-right: 0%;
+       margin-top: 0%;
+       background: url("test.jpg")  no-repeat ;
+       padding: 0px;
+       height: 95vh;
+       opacity: 0.9;
+   }
+}
 
- @media (max-width: 1600px) { 
-    .top
-    {
-     margin-top: 140px;
-    }
- }
+@media (min-width: 701px) and (max-width: 749px)  { 
+   .top
+   {
+    margin-top: 180px;
+   }
+}
 
- @media (max-width: 1630px) and (max-width: 2000px)  { 
-    .top
-    {
-     margin-top: 200px;
-    }
- }
+@media (min-width: 750px) and (max-width: 799px)  { 
+   .top
+   {
+    margin-top: 95px;
+   }
+}
 
+@media (min-width: 800px) and (max-width: 900px)  { 
+   .top
+   {
+    margin-top: 100px;
+   }
+}
+
+@media (min-width: 901px) and (max-width: 1000px)  { 
+   .top
+   {
+    margin-top: 100px;
+   }
+}
+
+
+@media (min-width: 1001px) and (max-width: 1100px)  { 
+   .top
+   {
+    margin-top: 150px;
+   }
+}
+
+@media (min-width: 1101px) and (max-width: 1200px)  { 
+   .top
+   {
+    margin-top: 150px;
+   }
+}
+
+@media (min-width: 1201px) and (max-width: 1300px)  { 
+   .top
+   {
+    margin-top: 110px;
+   }
+}
+
+@media (min-width: 1301px) and (max-width: 1440px)  { 
+   .top
+   {
+    margin-top: 130px;
+   }
+}
+
+@media (min-width: 1441px) and (max-width: 1600px)  { 
+   .top
+   {
+    margin-top: 130px;
+   }
+}
+
+@media (min-width: 1600px) and (max-width: 1900px)  { 
+   .top
+   {
+    margin-top: 130px;
+   }
+}
+
+@media (min-width: 1901px) and (max-width: 2000px)  { 
+   .top
+   {
+    margin-top: 130px;
+   }
+}
+
+@media (min-width: 2001px) and (max-width: 2200px)  { 
+   .top
+   {
+    margin-top: 150px;
+   }
+}
  /* .top
     {
      margin-top: 75px;
@@ -74,7 +195,23 @@
 
 .front
 {
-    font-size: calc(11px + 2vmin);
+    font-size: calc(5px + 5vmin);
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+.frontH
+{
+    font-size: calc(10px + 5vmin);
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+.frontbutton
+{
+    font-size: calc(5px + 3vmin);
     text-align: center;
     font-family: 'Prompt', sans-serif;
     

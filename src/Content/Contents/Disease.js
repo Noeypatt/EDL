@@ -35,7 +35,7 @@ class Disease extends Component {
                 <br /> 
                 <div id="Helpcenter" className="container-fluid">
                 <div className="row">
-                <div id="font" className="col-lg-12">
+                <div id="fontb" className="col-lg-12">
                  <h3>5 อันดับโรคควรระวังในผู้สูงอายุ</h3><br/>
                 </div>
                 </div>
@@ -44,9 +44,11 @@ class Disease extends Component {
                
                     <div className="row">
                     
+                    
 
                         {data.map(obj => (
-                            <div id="font" className="col-lg-7">
+                            
+                            <div id="fontb" className="col-lg-7">
                                 <div className="text-left">{obj.โรค}</div>
                                 <Progress multi >
 
@@ -58,7 +60,7 @@ class Disease extends Component {
                             </div>
                         ))}
 
-                        <div className="col-lg-5 col-xl-5">
+                        <div className="col-lg-3 col-xl-5">
                         </div>
 
                     </div>

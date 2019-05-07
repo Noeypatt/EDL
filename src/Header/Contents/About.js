@@ -15,22 +15,19 @@ class Contact extends Component {
                                 <br />
                                 <h1 className="animated zoomIn delay-1s display-4" >ระบบฐานข้อมูลผู้สูงอายุ</h1>
                                 <p className="animated fadeInUp delay-1s lead">ร่วมเป็นส่วนหนึ่ง ที่ช่วยพัฒนาคุณภาพชีวิตของผู้สูงอายุ</p>
-                                {/* <a href="/#"><button class="btn btn-primary btn-lg animated bounceInLeft delay-3s">
-                                    ติดต่อเรา
-                                </button></a> */}
 
                             </div>
                         </div>
 
                     </div> <br />
 
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-lg-1">
                         </div>
 
                         <div className="col-lg-4">
 
-                            <div id="aboutcontent" className="animated jumbotron zoomIn delay-3s">
+                            <div id="aboutcontent" className="jumbotron ">
                                 <br />
                                 <h5>ระบบฐานข้อมูลผู้สูงอายุ</h5>
                                 <br />
@@ -41,7 +38,7 @@ class Contact extends Component {
                         </div>
 
                         <div className="col-lg-4">
-                            <div id="aboutcontent" className="animated jumbotron zoomIn delay-3s">
+                            <div id="aboutcontent" className="jumbotron ">
                                 <br />
                                 <h5>ระบบฐานข้อมูลผู้สูงอายุ</h5>
                                 <br />
@@ -53,7 +50,7 @@ class Contact extends Component {
 
 
 
-                    </div> <br />
+                    </div> <br /> */}
 
 
 

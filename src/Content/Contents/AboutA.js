@@ -66,7 +66,7 @@ class About extends Component {
                 <div className="container-fluid">
 
                     <br />
-                    <div className="row animated zoomIn delay-3s " >
+                    <div className="row  " >
                         <div class="col-lg-1">
                         </div>
 

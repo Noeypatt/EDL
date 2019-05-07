@@ -69,10 +69,6 @@
     font-family: 'Pacifico', cursive;
 }
 
-.font
-{
-    font-size: calc(8px + 2vmin);
-}
 
 #Choice
 {
@@ -80,18 +76,24 @@
     text-align: center; 
 }
 
-
-/* Help */
 #Helpcenter
 {
     text-align: center;
     font-family: 'Pacifico', cursive;
+  
 }
 
 #Helpchoice
 {
     font-family: 'Prompt', sans-serif;
     text-align: center; 
+    
 
 }
+
+.pic:hover {
+    opacity: 0.3;
+  }
+
+
 
